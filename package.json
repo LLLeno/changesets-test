@@ -1,6 +1,6 @@
 {
-  "name": "changesets-test",
-  "version": "0.0.0",
+  "name": "@changesets-test/main",
+  "version": "1.0.1",
   "description": "changesets多包管理测试",
   "main": "index.js",
   "scripts": {
