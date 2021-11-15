@@ -1,5 +1,5 @@
 {
-  "name": "@changesets-test/main",
+  "name": "@lyucan/main",
   "version": "1.0.1",
   "description": "changesets多包管理测试",
   "main": "index.js",
