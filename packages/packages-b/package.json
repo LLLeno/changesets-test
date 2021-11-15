@@ -1,5 +1,5 @@
 {
-  "name": "@lyucan/package-b",
+  "name": "@changesets-test/package-b",
   "version": "2.0.0",
   "private": false,
   "description": "",
