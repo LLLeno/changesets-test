@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import PackageA from '@changesets/package-a'
+import TestUI from 'test-ui'
 
-console.log(PackageA);
+console.log(TestUI);
 
 Vue.config.productionTip = false
 

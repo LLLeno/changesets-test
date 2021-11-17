@@ -8,21 +8,11 @@ importers:
     dependencies:
       '@changesets/cli': repo.3weijia.com/@changesets/cli/2.18.0
 
-  packages/packages-a:
-    specifiers:
-      vue: ^2.6.11
-    dependencies:
-      vue: repo.3weijia.com/vue/2.6.14
-
-  packages/packages-b:
-    specifiers:
-      vue: ^2.6.11
-    dependencies:
-      vue: repo.3weijia.com/vue/2.6.14
+  packages/test-ui:
+    specifiers: {}
 
   projects/app:
     specifiers:
-      '@changesets/package-a': workspace:^1.0.0
       '@vue/cli-plugin-babel': ~4.5.0
       '@vue/cli-plugin-eslint': ~4.5.0
       '@vue/cli-service': ~4.5.0
@@ -31,12 +21,13 @@ importers:
       eslint: ^6.7.2
       eslint-plugin-vue: ^6.2.2
       lodash: ^4.17.21
+      test-ui: workspace:^1.0.0
       vue: ^2.6.11
       vue-template-compiler: ^2.6.11
     dependencies:
-      '@changesets/package-a': link:../../packages/packages-a
       core-js: registry.npmmirror.com/core-js/3.19.1
       lodash: repo.3weijia.com/lodash/4.17.21
+      test-ui: link:../../packages/test-ui
       vue: registry.npmmirror.com/vue/2.6.14
     devDependencies:
       '@vue/cli-plugin-babel': registry.npmmirror.com/@vue/cli-plugin-babel/4.5.15_4c1e5ebbf041a85328f9984e4ede8f8a
@@ -12773,12 +12764,6 @@ packages:
       webpack: registry.npmmirror.com/webpack/4.46.0
     dev: true
     optional: true
-
-  repo.3weijia.com/vue/2.6.14:
-    resolution: {integrity: sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ==, registry: http://registry.cnpm.3weijia.com/, tarball: http://repo.3weijia.com/repository/3vj-npm/vue/-/vue-2.6.14.tgz}
-    name: vue
-    version: 2.6.14
-    dev: false
 
   repo.3weijia.com/watchpack-chokidar2/2.0.1:
     resolution: {integrity: sha512-nCFfBIPKr5Sh61s4LPpy1Wtfi0HE8isJ3d2Yb5/Ppw2P2B/3eVSEBjKfN0fmHJSK14+31KwMKmcrzs2GM4P0Ww==, registry: http://registry.cnpm.3weijia.com/, tarball: http://repo.3weijia.com/repository/3vj-npm/watchpack-chokidar2/-/watchpack-chokidar2-2.0.1.tgz}

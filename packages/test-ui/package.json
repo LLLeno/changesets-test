@@ -1,15 +1,11 @@
 {
-  "name": "@changesets/package-b",
+  "name": "test-ui",
   "version": "1.0.0",
-  "private": false,
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "vue": "^2.6.11"
-  }
+  "license": "ISC"
 }
