@@ -1,6 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
 
+import PackageA from '@changesets/package-a'
+
+console.log(PackageA);
+
 Vue.config.productionTip = false
 
 new Vue({

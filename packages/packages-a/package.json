@@ -1,6 +1,6 @@
 {
-  "name": "@changesets-test/package-a",
-  "version": "3.0.0",
+  "name": "@changesets/package-a",
+  "version": "1.0.0",
   "private": false,
   "description": "",
   "main": "index.js",
