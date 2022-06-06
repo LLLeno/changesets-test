@@ -1,14 +1,11 @@
 {
-  "name": "@lyucan/main",
+  "name": "@changesets-test/main",
   "version": "1.0.1",
   "description": "changesets多包管理测试",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "workspaces": [
-    "packages/*"
-  ],
   "preconstruct": {},
   "publishConfig": {},
   "repository": {

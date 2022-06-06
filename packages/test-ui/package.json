@@ -1,7 +1,6 @@
 {
-  "name": "@lyucan/package-a",
-  "version": "3.0.0",
-  "private": false,
+  "name": "test-ui",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
