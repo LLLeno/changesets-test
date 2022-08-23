@@ -1,5 +1,11 @@
 # packages-a
 
+## 2.0.0
+
+### Major Changes
+
+- ffafsda
+
 ## 1.0.2
 
 ### Patch Changes
